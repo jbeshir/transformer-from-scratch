@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "transformer-from-scratch"
+version = "0.1.0"
+description = ""
+authors = ["John Beshir <john@beshir.org>"]
+readme = "README.md"
+packages = [{include = "transformer_from_scratch"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+torch = "^2.0.1"
+transformers = "^4.33.3"
+transformer-lens = "^1.6.1"
+datasets = "^2.14.5"
+urllib3 = "<2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
